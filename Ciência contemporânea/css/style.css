@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: linear-gradient(90deg, #001eca, #3851e1, #6285f9);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+
+/* Centraliza todo o texto da página */
+body {
+    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    color: #333; /* Define a cor do texto */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+}
+
+
+    p {
+        font-size: medium;
+        width: 50%; /* Reduz a largura das caixas de texto */
+            margin: 10px auto; /* Centraliza horizontalmente */
+            display: block; /* Garante que as caixas fiquem em bloco */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+   
+img {
+ border-radius: 15px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+/* Estilo do rodapé */
+footer {
+    background: linear-gradient(to right, #001eca, #3851e1, #6285f9); /* Gradiente de verde para azul */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  /* Estilo do rodapé com sombra */
+  footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+  }
+  
